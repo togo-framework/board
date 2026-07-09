@@ -24,6 +24,10 @@ Drag-and-drop tile board host: arranges widgets, feed posts and page sections ac
 
 
 
+## Frontend
+
+The host UI lives in [`web/`](web): the drag-and-drop **board** + `BoardProvider` (`@togo-framework/board`). It arranges any registered widget/tile across zones with layout persistence. The Go module embeds `web/` via `go:embed` (`WebAssets`).
+
 MIT
 
 <!-- togo-sponsors -->
