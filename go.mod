@@ -1,4 +1,4 @@
-module github.com/fadymondy/board
+module github.com/togo-framework/board
 
 go 1.26.4
 
